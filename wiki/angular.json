@@ -23,24 +23,15 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/scss/bootstrap.scss",
+              "node_modules/datatables.net-dt/css/jquery.dataTables.min.css"
             ],
             "scripts": [
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
-
               "node_modules/jquery/dist/jquery.min.js",
-
-              "node_modules/jquery-easing/jquery.easing.min.js",
-
-              "js/sb-admin-2.min.js",
-
-              "vendor/chart.js/Chart.min.js",
-
-              "js/demo/chart-area-demo.js",
-
-              "js/demo/chart-pie-demo.js",
-
-              "node_modules/bootstrap/dist/js/bootstrap.bundle.js"
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.js",
+              "node_modules/datatables.net/js/jquery.dataTables.min.js"
             ]
           },
           "configurations": {
@@ -109,7 +100,9 @@
               "src/styles.css",
               "node_modules/bootstrap/dist/css/bootstrap.min.css" 
             ],
-            "scripts": []
+            "scripts": [
+              
+            ]
           }
         }
       }
